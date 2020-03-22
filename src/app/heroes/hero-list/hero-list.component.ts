@@ -13,3 +13,4 @@ export class HeroListComponent implements OnInit {
   }
 
 }
+
