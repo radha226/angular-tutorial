@@ -2,6 +2,10 @@
   <ul>
     <li><a routerLink="/crisis-center"routerLinkActive="active">Crisis Center</a></li>
     <li><a routerLink="/heroes"routerLinkActive="active">Herors</a></li>
+    <li>  <a routerLink="/admin" routerLinkActive="active">Admin</a></li>
+    <!-- <li>  <a routerLink="/login" routerLinkActive="active">Login</a></li> -->
+    <!-- <li> <a [routerLink]="[{ outlets: { popup: ['compose'] } }]">Contact</a></li> -->
   </ul>
 </nav>
 <router-outlet></router-outlet>
+<router-outlet name="popup"></router-outlet>

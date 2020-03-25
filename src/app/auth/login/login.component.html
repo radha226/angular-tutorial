@@ -1,0 +1,7 @@
+<h4>Welcome to Login</h4>
+<input type="text" name="username" #u> username<br>
+<input type="password" name="password" #p> password<br>
+<input type="submit" (click)="submit(u.value, p.value)">
+{{msg}}
+<br><br>
+<button (click)="logout()">Logout</button>
